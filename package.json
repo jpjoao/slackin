@@ -24,6 +24,7 @@
     "slackin": "./bin/slackin"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "make && ./bin/slackin $SLACK_SUBDOMAIN $SLACK_API_TOKEN -p $SLACK_PORT"
   }
 }
