@@ -35,6 +35,6 @@
   "scripts": {
     "test": "mocha",
     "postinstall": "gulp",
-    "start": "node ./bin/slackin"
+    "start": "make && ./bin/slackin $SLACK_SUBDOMAIN $SLACK_API_TOKEN -p $SLACK_PORT"
   }
 }
